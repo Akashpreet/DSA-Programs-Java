@@ -7,7 +7,6 @@ public class Merge_sort {
     }
     static void merge(int arr[], int l, int mid, int r)
     {
-         // Your code here
          int n1=mid-l+1;
          int n2=r-mid;
          int left[]=new int[n1];

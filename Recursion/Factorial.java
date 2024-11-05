@@ -10,12 +10,10 @@ public class Factorial {
         // int fa=fact(n-1);
         // int fan=n*fa;
         // return fan;
-        if(n==1 || n==0){
+        if(n==0){
             return 1;
         }
-        int fac=fact(n-1);
-        int fa=n*fac;
-        return fa;
+        return n*fact(n-1);
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

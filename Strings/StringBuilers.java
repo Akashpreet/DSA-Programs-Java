@@ -21,6 +21,14 @@ public class StringBuilers {
         sb.append("l");
         sb.append("o");
         System.out.println(sb);
-        System.out.println(sb.length());
+        System.out.println(sb.length());  
+        sb.replace(0, 2,"ih");
+        System.out.println(sb);
+        String str="Hello";
+        str.replace('H', 'x');
+        System.out.println(str.replace('H', 'x'));  
+        sb.reverse();
+        System.out.println(sb);    
+        sb.toString();
     }
 }
